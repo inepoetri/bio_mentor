@@ -10,6 +10,15 @@ TextStyle welcomeTitle = GoogleFonts.poppins(
   fontWeight: FontWeight.w500,
   fontSize: 35,
 );
+TextStyle emailStyle = GoogleFonts.poppins(
+  color: Color(0xff6D8299),
+  fontWeight: FontWeight.w300,
+);
+
+TextStyle passwordStyle = GoogleFonts.poppins(
+  color: Color(0xff6D8299),
+  fontWeight: FontWeight.w300,
+);
 
 TextStyle bioMentorTitle = GoogleFonts.poppins(
   color: Color(0xff316B83),
@@ -45,4 +54,27 @@ TextStyle buttonFont = GoogleFonts.poppins(
   color: Color(0xffffffff),
   fontWeight: FontWeight.bold,
   fontSize: 13,
+);
+
+final kHintTextStyle = TextStyle(
+  color: Colors.white24,
+  fontFamily: 'Poppins',
+);
+
+final kLabelStyle = TextStyle(
+  color: Color(0xFF6D8299),
+  fontWeight: FontWeight.bold,
+  fontFamily: 'Poppins',
+);
+
+final kBoxDecorationStyle = BoxDecoration(
+  color: Color(0xFF6D8299),
+  //borderRadius: BorderRadius.circular(10.0),
+  boxShadow: [
+    BoxShadow(
+      color: Colors.black12,
+      blurRadius: 6.0,
+      offset: Offset(0, 2),
+    ),
+  ],
 );
